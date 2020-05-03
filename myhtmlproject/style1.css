@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+body{
+	font-family: 'PT Sans', Cursive;
+	background-color: #A7A7A7 ;
+}
+
+
+
+.navbar{
+	background: url("") no-repeat center center scroll;
+	background-size: cover;
+	height: ;
+	width: auto;
+}
+
+.form-control{
+	width: 40%;
+}
+
+
+
+.list-group-item:hover{
+	background-color:#007bff ;
+}
+
+#preview
+{
+ background-color:white;
+ width:400px;
+ margin-left:350px;
+ margin-top:20px;
+ color:#2E2E2E;
+ padding:10px;
+ box-sizing:border-box;
+}
+
+
+

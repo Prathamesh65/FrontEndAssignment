@@ -1,0 +1,21 @@
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="preview_style.css"/>
+<script type="text/javascript" src="jquery-3.5.0.min.js"></script>
+<script type="text/javascript">
+function preview()
+{
+ $("#preview_div").html($("#text").val());
+}
+</script>
+</head>
+<body>
+<div id="wrapper">
+
+<textarea id="text"onkeyup="preview();" placeholder="Enter Text Or Code"></textarea>
+
+<div id="preview_div"></div>
+
+</div>
+</body>
+</html>
